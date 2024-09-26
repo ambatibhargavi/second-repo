@@ -8,7 +8,7 @@ on:
 
 jobs:
   use_shared_workflow:
-    uses: username/shared-workflows/.github/workflows/reusable-workflow.yml@main
+    uses: ambatibhargavi/shared-workflows/.github/workflows/reusable-workflow.yml@main
     with:
       greeting: "Hello"
       name: "Ambati"
